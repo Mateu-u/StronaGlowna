@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="plikipobraniecss.css">
+    <link rel="stylesheet" href="uploadfiles.php">
+    <title>Pliki</title>
+</head>
+<body>
+    <div style="display: grid; justify-content: center;" >
+
+    <div class="title">
+        Pliki do pobrania:
+    </div>    
+    <div style="display: none;">
+        <form method="post" enctype="multipart/form-data">
+            <div>
+              <label class="NazwaFile" for="file">Choose file to upload: </label>
+              <input type="file" id="file" name="file" multiple accept="image/*"/>
+            </div>
+            <div>
+              <button class="submitbtn">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="main">
+        <a href="images/shrekEE.jpg" download="shrek">shrek.jpg</a>
+        <a href="images/shrek.webp" download="shrek">shrek.webp</a>
+        <a href="images/Rock.jpg" download="rock">rock.jpg</a>
+        <a href="images/westk.jpg" download="kaniełest">kanyewest.jpg</a>
+        <a href="images/mandzio.jpg" download="mandzio">mandzio.jpg</a>
+
+    </div>
+    </div>
+</body>
+</html>
