@@ -121,5 +121,6 @@ input[type="checkbox"] {
     height: 25px;
     width: 25px;
     accent-color: green;
+    border: none;
 }
 
