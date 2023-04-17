@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(32, 32, 32);
+    max-width: 360px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.display{
+    width: 100%;
+    height: 56px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+button {
+    width: calc(25% - 10px);
+    height: 50px;
+    font-size: 20px;
+    margin: 10px 5px;
+    border: none;
+    float: left;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(1.03);
+}
+
+.operator {
+    color: lightblue;
+    background-color: darkblue;
+}
+
+.equal {
+    width: calc(50% - 10px);
+}
+
+.ac{
+    background-color: darkgreen;
+    color: lightgreen;
+}
+
+.number {
+    background-color: rgb(77, 77, 77);
+    color: lightblue;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obliczanie peselu</title>
+    <link rel="stylesheet" href="pesel.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/1/12/Flag_of_Poland.svg">
+</head>
+<body>
+    <div class="container">
+        <h1>Obliczanie numeru pesel</h1>
+        <h2>Podaj datę urodzenia</h2>
+        <div class="inputs">
+            <input type="number" id="day" placeholder="dzień">
+            <input type="number" id="month" placeholder="miesiąc">
+            <input type="number" id="year" placeholder="rok">
+        </div>
+        <div class="gender">
+            <label>Mężczyzna</label>
+            <input type="checkbox" id="man">
+        </div>
+        <div class="gender">
+            <label>Kobieta</label>
+            <input type="checkbox" id="woman">
+        </div>    
+       <div>
+        <button id="button">Potwierdź</button>
+       </div>
+       <div>
+        <h2>Twój przykładowy pesel to:</h2>
+        <input type="text" id="result" class="result" placeholder="Pierwsze 6 cyfr" disabled>
+       </div>
+       <div>
+        <button id="clear">Wyczyść</button>
+       </div>
+       <div>
+        <p>"K" to liczba kontrolna</p>
+       </div>
+    </div>
+    
+    <script src="pesel.js"></script>
+</body>
+</html>
